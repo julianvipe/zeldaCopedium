@@ -1,0 +1,79 @@
+@font-face {
+    font-family: 'MyFont';
+    src: url("../font/ZeldaFont.otf") format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+body {
+    min-height: 100vh;
+    background: #212534;
+    display: flex;
+    vertical-align: middle;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    box-sizing: border-box;
+    color: rgb(186, 161,101, 1);
+    justify-content: center;
+    font-family: 'MyFont',sans-serif;
+  }
+
+
+  .search{
+    margin: 1rem;
+    display: flex;
+  }
+
+  .buttons{
+    padding: 1rem;
+
+  }
+
+  .images
+  {
+    cursor: pointer;
+    appearance: none;
+    background-color: rgb(186, 161,101, 1) ;
+    border-radius: 10px;
+    height: 20rem;
+  }
+  img{
+    border-radius: 10px;
+    border-style: solid;
+    border-color: rgb(157 125 47);
+  }
+  .row{
+    justify-content: space-around;
+  }
+  .details{
+    align-items: center;
+    text-align: center;
+    width: 30rem;
+  }
+  .description{
+    color: aliceblue;
+  }
+  .error{
+    border: none;
+  }
+  .deco{
+    display: flex;
+    position: sticky;
+    border: none;
+    right: 10px;
+  }
+  .link{
+    position: absolute;
+    width: 26rem;
+    left: 1px;
+    z-index:-1;
+    
+  }
+  .zelda{
+    position: absolute;
+    width: 20rem;
+    z-index:-1;
+  }
